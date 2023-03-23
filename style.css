@@ -1,0 +1,119 @@
+body {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('./asts/wp.jpg');
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;  
+    margin-left:0;
+    margin-right:0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    
+
+}
+ul {
+  font-family: 'Ubuntu', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  padding-right: 90px;
+  padding-top:10px;
+}
+li {
+  display: inline;
+  padding: 0px 20px; 
+
+}
+.nav a{
+  transition: 0.3s;
+}
+
+.nav a:hover{
+  color: #3d0037;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.itn {
+  text-align: center;
+  display: block; 
+}
+.button1 {
+  background: none;
+  line-height: 5px;
+  height: 5px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+#features {
+  padding-left: 100px;
+  background-color: #3d0037;
+  height: 500px;
+  padding-top: 20px;
+}
+#line {
+  background-color: white;
+  position:relative; 
+  left: -650px;
+  width: 180px;
+  height: 10px;
+}
+.code {
+  text-align: center;
+}
+#line2 {
+  width: 180px;
+  height: 10px;
+  background-color: white;
+}
+
+.footer {
+  text-align: center;
+  background-color: #3d0037;
+  padding: 10px;
+}
+.mg{
+  /* filter: grayscale(100%); */
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+
+
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #3d0037;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+  transition: 0.3s;
+
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: lightgray;
+}
